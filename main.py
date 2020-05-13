@@ -134,7 +134,7 @@ while running:
     # enemy movement
     for i in range(num_of_enemies):
         # Game Over
-        if enemyY[i] > 460:  # when any enemy crosses 300 pix, game over
+        if enemyY[i] > 440:  # when any enemy crosses 300 pix, game over
             for j in range(num_of_enemies):
                 enemyY[j] = 2000   # move all the enemies out of screen and break out of loop
             game_over_text()
